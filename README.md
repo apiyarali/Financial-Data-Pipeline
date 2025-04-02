@@ -1,6 +1,5 @@
 # Financial Data Pipeline
 
-## Project Goal and Problem Statement
 This project demonstrates how to build a system that collects financial data for a selected company, indexes the data in Elasticsearch, and analyzes financial ratios on a yearly basis.
 
 ## Big Data Source
