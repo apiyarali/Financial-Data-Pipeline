@@ -2,6 +2,8 @@
 
 This project demonstrates how to build a system that collects financial data for a selected company, indexes the data in Elasticsearch, and analyzes financial ratios on a yearly basis.
 
+<img src="https://github.com/apiyarali/Financial-Data-Pipeline/blob/2a12b44d40f1c6e716c3c90cc7cfff09351e570a/Screenshots/kibana.jpg" alt="kibana" width="300">
+
 ## Big Data Source
 - **Data Source:** [SEC EDGAR Database](https://www.sec.gov/os/accessing-edgar-data)
 - **API:** [Smart Edgar](https://pschatzmann.ch/edgar/index.html#/)
