@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a system that collects financial data for a selected company, indexes the data in Elasticsearch, and analyzes financial ratios on a yearly basis.
 
-<img src="https://github.com/apiyarali/Financial-Data-Pipeline/blob/2a12b44d40f1c6e716c3c90cc7cfff09351e570a/Screenshots/kibana.jpg" alt="kibana" width="300">
+<img src="https://github.com/apiyarali/Financial-Data-Pipeline/blob/2a12b44d40f1c6e716c3c90cc7cfff09351e570a/Screenshots/kibana.jpg" alt="kibana" width="350">
 
 ## Big Data Source
 - **Data Source:** [SEC EDGAR Database](https://www.sec.gov/os/accessing-edgar-data)
@@ -24,6 +24,9 @@ The processing pipeline will display a company's year-over-year financial ratios
 - Operating Profit Margin
 
 ## Pipeline Overview and Technologies Used
+
+<img src="https://github.com/apiyarali/Financial-Data-Pipeline/blob/9964155326db6341f25d74bcff60f961be0c733c/Screenshots/pipeline.jpg" alt="data-pipeline" width="350">
+
 ### **Collection Tier:** REST API
 - Python and Pandas used to extract and modify data
 
@@ -45,6 +48,8 @@ The processing pipeline will display a company's year-over-year financial ratios
 ### **Dockerized Kafka and Elasticsearch Deployment**
 - Kafka and Elasticsearch implemented using Docker Compose.
 - Referenced from Elastic Stack’s [Docker Guide](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-stack-docker.html#run-docker-secure)
+
+<img src="https://github.com/apiyarali/Financial-Data-Pipeline/blob/9964155326db6341f25d74bcff60f961be0c733c/Screenshots/docker.jpg" alt="docker" width="250">
 
 ### **Docker Commands Used:**
 ```
@@ -105,6 +110,9 @@ if __name__ == '__main__':
 - Successfully deployed Kafka, Elasticsearch, and Kibana using Docker.
 - Data from SEC EDGAR database processed and analyzed for Apple Inc.
 - Financial ratios calculated and visualized using Kibana.
+
+<img src="https://github.com/apiyarali/Financial-Data-Pipeline/blob/2a12b44d40f1c6e716c3c90cc7cfff09351e570a/Screenshots/kibana.jpg" alt="kibana" width="350">
+<img src="https://github.com/apiyarali/Financial-Data-Pipeline/blob/9964155326db6341f25d74bcff60f961be0c733c/Screenshots/elasticsearch.jpg" alt="elasticsearch" width="350">
 
 ## Challenges and Lessons Learned
 ### **Issues Encountered:**
